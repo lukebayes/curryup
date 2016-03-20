@@ -1,5 +1,7 @@
-Curryup makes it easy to incrementally provide dependencies to entities over
-time.
+# Curryup
+
+This library makes it easy to incrementally provide dependencies to entities
+over time.
 
 When developing modern JavaScript applications, we require a number of
 dependency types.
