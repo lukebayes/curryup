@@ -1,5 +1,5 @@
 var capitalize = require('./capitalize');
-
+var callable = require('./callable');
 
 var withParams = function(Constr, params) {
   var values = {};
@@ -45,7 +45,6 @@ module.exports = {
     return withParams(Constr, params);
   },
 
-  callable: function(callable) {
-  }
+  callable: callable
 };
 
