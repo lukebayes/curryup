@@ -1,9 +1,4 @@
-
-var capitalize = function(str) {
-  var parts = str.split('');
-  parts[0] = parts[0].toUpperCase();
-  return parts.join('');
-};
+var capitalize = require('./capitalize');
 
 
 var withParams = function(Constr, params) {
